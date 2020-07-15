@@ -68,7 +68,7 @@ def oppButtonClick(operator):
         entryBox.insert(0,oprt)
 
 #Define number buttons  -- lambda used for pass argument to function
-button_1=Button(mainFrame,text="1",padx=22,pady=10, command=lambda: numButtonClick(11),borderwidth="2",bg="gray",fg="white",font=buttonStyle)
+button_1=Button(mainFrame,text="1",padx=22,pady=10, command=lambda: numButtonClick(1),borderwidth="2",bg="gray",fg="white",font=buttonStyle)
 button_2=Button(mainFrame,text="2",padx=22,pady=10, command=lambda: numButtonClick(2),borderwidth="2",bg="gray",fg="white",font=buttonStyle)
 button_3=Button(mainFrame,text="3",padx=22,pady=10, command=lambda: numButtonClick(3),borderwidth="2",bg="gray",fg="white",font=buttonStyle)
 button_4=Button(mainFrame,text="4",padx=22,pady=10, command=lambda: numButtonClick(4),borderwidth="2",bg="gray",fg="white",font=buttonStyle)
